@@ -3,10 +3,10 @@
     $username = "";
     $email = "";
     $errors = array();
-    $hostname = "fdb30.awardspace.net";
-    $dbUsername = "3636679_localhost";
-    $dbPassword = "Razvan2407";
-    $dbName = "3636679_localhost";
+    $hostname = "xxxxxxxxx";
+    $dbUsername = "xxxxxxxxx";
+    $dbPassword = "xxxxxxxxx";
+    $dbName = "xxxxxxx";
     $db = mysqli_connect($hostname, $dbUsername, $dbPassword, $dbName);
     if(isset($_POST['register'])){
         $username = mysqli_real_escape_string($db, $_POST['username']);
