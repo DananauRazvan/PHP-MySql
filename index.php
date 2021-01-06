@@ -177,5 +177,6 @@
     <br>
     <br>
     <h2><a href = "details.php">Details about hotels?</a></h2>
+    <h2><a href = "contact.php">Contact us</a></h2>
 </body>
 </html>
