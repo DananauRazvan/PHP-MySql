@@ -3,10 +3,10 @@
     $username = "";
     $email = "";
     $errors = array();
-    $hostname = "fdb30.awardspace.net";
-    $dbUsername = "3636679_localhost";
-    $dbPassword = "Razvan2407";
-    $dbName = "3636679_localhost";
+    $hostname = "xxxxxx";
+    $dbUsername = "xxxxxx";
+    $dbPassword = "xxxxxx";
+    $dbName = "xxxxxx";
     $db = mysqli_connect($hostname, $dbUsername, $dbPassword, $dbName);
 
     $sql = "CREATE TABLE department (
