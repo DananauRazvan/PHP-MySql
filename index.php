@@ -166,10 +166,6 @@
                 }
             }
         }
-        /*$fn = $_POST["first_name"];
-        $ln = $_POST["last_name"];
-        $sd = $_POST["start_book_date"];
-        $ed = $_POST["end_book_date"];*/
         $sql = "INSERT INTO booking (hotel_id, register_id, first_name, last_name, start_book_date, end_book_date)
                 VALUES ('$id_booking_hotel', '$id_booking_register', '" . $_POST["first_name"] ."', '" . $_POST["last_name"] ."', '" . $_POST["start_book_date"] ."', '" . $_POST["end_book_date"] ."')";
         mysqli_query($db, $sql);
